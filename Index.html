@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioGen Seeds | The Future of Harvest</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-slate-900">
+
+    <header class="fixed w-full z-50 glass-effect border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center">
+                    <span class="text-white font-bold">B</span>
+                </div>
+                <span class="text-xl font-extrabold tracking-tight text-emerald-900">BIOGEN <span class="text-stone-500 font-light">SEEDS</span></span>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold uppercase tracking-wider text-slate-600">
+                <a href="#" class="hover:text-emerald-600 transition">Catalog</a>
+                <a href="#" class="hover:text-emerald-600 transition">Lab Tech</a>
+                <a href="#" class="hover:text-emerald-600 transition">Sustainability</a>
+                <a href="#" class="bg-emerald-700 text-white px-5 py-2 rounded-full hover:bg-emerald-800 transition">Contact Agronomist</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2500&auto=format&fit=crop" 
+                 class="w-full h-full object-cover" alt="Green farm field">
+            <div class="absolute inset-0 bg-gradient-to-r from-emerald-900/80 to-stone-900/40"></div>
+        </div>
+        
+        <div class="relative z-10 text-center px-6">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6">Seeds Designed <br><span class="text-emerald-400 font-light italic">to Defy the Odds.</span></h1>
+            <p class="text-emerald-50 max-w-2xl mx-auto text-lg md:text-xl mb-10 opacity-90">
+                Precision bio-engineering meets traditional farming. High-yield, climate-resilient genetics for the modern grower.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#produce" class="bg-emerald-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-emerald-400 transition-all shadow-xl shadow-emerald-900/20">Explore Produce</a>
+                <a href="#" class="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/20 transition">Our Research</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="produce" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+            <div class="max-w-2xl">
+                <h2 class="text-emerald-600 font-bold uppercase tracking-widest text-sm mb-3">Engineered Excellence</h2>
+                <p class="text-4xl md:text-5xl font-extrabold text-slate-800 leading-tight">Superior produce from superior genetics.</p>
+            </div>
+            <p class="text-slate-500 max-w-xs pb-2">Every variety is field-tested across three climate zones to ensure consistent performance.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="group bg-white rounded-3xl overflow-hidden border border-stone-200 hover:border-emerald-300 transition-all hover:shadow-2xl">
+                <div class="h-80 relative overflow-hidden">
+                    <img src="tomatoes.jpg" 
+                         class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Engineered Tomatoes">
+                    <div class="absolute top-4 left-4 bg-emerald-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-lg">Drought Proof</div>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-extrabold text-slate-800 mb-2">Titan Red Tomato</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">Engineered for thick skin and high sugar retention. Remains firm during long-haul transport with 40% less water requirement.</p>
+                    <div class="flex items-center justify-between border-t border-stone-100 pt-6">
+                        <div>
+                            <p class="text-xs text-stone-400 font-bold uppercase">Yield Rate</p>
+                            <p class="font-bold text-emerald-700">+22% Avg.</p>
+                        </div>
+                        <button class="text-emerald-600 font-bold text-sm hover:underline">Full Specs →</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group bg-white rounded-3xl overflow-hidden border border-stone-200 hover:border-emerald-300 transition-all hover:shadow-2xl">
+                <div class="h-80 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1588252303782-cb80119abd6d?q=80&w=1200&auto=format&fit=crop" 
+                         class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Red Chili Peppers">
+                    <div class="absolute top-4 left-4 bg-orange-500 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-lg">Uniform Spice</div>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-extrabold text-slate-800 mb-2">Solar Flare Chili</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">Capsaicin levels are genetically stabilized for industrial food processing. High resistance to soil-borne pathogens.</p>
+                    <div class="flex items-center justify-between border-t border-stone-100 pt-6">
+                        <div>
+                            <p class="text-xs text-stone-400 font-bold uppercase">Maturity</p>
+                            <p class="font-bold text-emerald-700">65 Days</p>
+                        </div>
+						<a href="solar-flare-specs.html" class="text-emerald-600 font-bold text-sm hover:underline cursor-pointer">Full Specs →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group bg-white rounded-3xl overflow-hidden border border-stone-200 hover:border-emerald-300 transition-all hover:shadow-2xl">
+                <div class="h-80 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1551754655-cd27e38d2076?q=80&w=1200&auto=format&fit=crop" 
+                         class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Sweet Corn">
+                    <div class="absolute top-4 left-4 bg-blue-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-lg">Pest Immune</div>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-extrabold text-slate-800 mb-2">Aero-Grain Corn</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">Designed with integrated protein-based pest resistance. Maximized kernel density and lodging resistance for storm zones.</p>
+                    <div class="flex items-center justify-between border-t border-stone-100 pt-6">
+                        <div>
+                            <p class="text-xs text-stone-400 font-bold uppercase">Nutrients</p>
+                            <p class="font-bold text-emerald-700">High Zinc</p>
+                        </div>
+                        <button class="text-emerald-600 font-bold text-sm hover:underline">Full Specs →</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-stone-900 py-16 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center border-b border-stone-800 pb-12">
+            <div class="mb-8 md:mb-0">
+                <div class="text-2xl font-extrabold text-white mb-2">BIOGEN SEEDS</div>
+                <p class="text-stone-500 text-sm">Empowering global agriculture through genomic science.</p>
+            </div>
+            <div class="flex space-x-6 text-stone-400 text-sm">
+                <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition">Terms of Sale</a>
+                <a href="#" class="hover:text-white transition">Genetic Licensing</a>
+            </div>
+        </div>
+        <p class="text-center text-stone-600 text-xs mt-12">© 2026 BioGen Dynamics Inc. All seed varieties are patented and protected under international IP laws.</p>
+    </footer>
+
+</body>
+</html>
